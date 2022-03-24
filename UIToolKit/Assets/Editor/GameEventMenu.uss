@@ -1,0 +1,36 @@
+.button {
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+    height: 17px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: auto;
+    flex-direction: row;
+    font-size: 25px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgba(48, 48, 48, 255);
+    border-right-color: rgba(48, 48, 48, 255);
+    border-top-color: rgba(48, 48, 48, 255);
+    border-bottom-color: rgba(48, 48, 48, 255);
+}
+
+.button:active {
+    border-left-color: rgba(34, 34, 34, 255);
+    border-right-color: rgba(34, 34, 34, 255);
+    border-top-color: rgba(34, 34, 34, 255);
+    border-bottom-color: rgba(34, 34, 34, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    border-left-color: rgb(56, 56, 56);
+    border-right-color: rgb(56, 56, 56);
+    border-top-color: rgb(56, 56, 56);
+    border-bottom-color: rgb(56, 56, 56);
+}
