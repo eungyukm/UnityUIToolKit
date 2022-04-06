@@ -68,5 +68,5 @@ ServerData/
 ProjectSettings/Packages/com.unity.probuilder/Settings.json
 
 # Ignore Probuilder
-UIToolKit/Library/ArtifactDB
-UIToolKit/Library/PackageCache/com.unity.burst@1.6.4
+UIToolKit/Library
+UIToolKit/.vsconfig
