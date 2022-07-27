@@ -451,10 +451,16 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Editor/AssetEditor/Scripts/AssetDataSetEditor.cs"
+"Assets/Editor/AssetEditor/Scripts/AssetEditorMangaer.cs"
+"Assets/Editor/AssetEditor/Scripts/FBXEditManager.cs"
+"Assets/Editor/AssetEditor/Scripts/PlaceSO.cs"
 "Assets/Editor/GameEventsEditorWindow.cs"
 "Assets/GameEvent/Scripts/Editor/GameEventDescriptionOption.cs"
 "Assets/GameEvent/Scripts/Editor/GameEventEditor.cs"
 "Assets/GameEvent/Scripts/Editor/GameEventManagerWindow.cs"
+"Assets/Obliy/Editor/Item.cs"
+"Assets/Obliy/Editor/ItemDatabase.cs"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:9.0
 

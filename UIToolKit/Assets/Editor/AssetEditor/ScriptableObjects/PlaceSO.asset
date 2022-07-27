@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 11500000, guid: 1c5e9cc500cd96b4bacbad24079abc15, type: 3}
+  m_Name: PlaceSO
+  m_EditorClassIdentifier: 
+  Locations:
+  - placeName: "\uC2DC\uC791"
+    placeTag: A0
+  - placeName: "\uCEE8\uD37C\uB7F0\uC2A4\uC874"
+    placeTag: B0
+  - placeName: "\uAD11\uC7A5\uC874"
+    placeTag: C0
+  - placeName: "\uD574\uD0B9\uBC29\uC5B4\uC874"
+    placeTag: D0
+  - placeName: "\uB0B4\uBD80"
+    placeTag: IN
+  - placeName: "\uC678\uBD80"
+    placeTag: OUT

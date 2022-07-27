@@ -16,15 +16,15 @@ public class GameEventsEditorWindow : EditorWindow
 
     private void OnEnable()
     {
-        // UXML °æ·Î
+        // UXML URL
         string path = "Assets/Editor/GameEventMenu.uxml";
 
         var asset = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>(path);
 
-        // UXMLÀ» EditorWindow¿¡ ¹èÄ¡
+        // UXML Clone
         asset.CloneTree(rootVisualElement);
 
-        // EditorWindow ¾Æ·¡¿¡ ÀÖ´Â AddBtn Ã³¸®
+        // EditorWindow ï¿½Æ·ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ AddBtn Ã³ï¿½ï¿½
         rootVisualElement.Query<Button>("BtnScenePath").
             ForEach((button) =>
            {
@@ -64,18 +64,18 @@ public class GameEventsEditorWindow : EditorWindow
     {
         Debug.Log("Click Add Btn!!");
 
-        // TextField¿¡¼­ ¹®ÀÚ¿­À» °¡Á®¿É´Ï´Ù.
+        // TextFieldï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É´Ï´ï¿½.
         TextField textField = rootVisualElement.Query<TextField>().AtIndex(0);
 
         string textValue = textField.value;
 
-        // LabelÀ» µ¿ÀûÀ¸·Î »ý¼º
+        // Labelï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         var newLineLabel = new Label(textValue);
 
-        // »èÁ¦ ½Ã Query¿¡¼­ Ã£À» ¼ö ÀÖµµ·Ï myitem class Ãß°¡
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Queryï¿½ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½ ï¿½ï¿½ ï¿½Öµï¿½ï¿½ï¿½ myitem class ï¿½ß°ï¿½
         newLineLabel.AddToClassList("myitem");
 
-        // ScrollList¿¡ »ý¼ºµÈ label Ãß°¡
+        // ScrollListï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ label ï¿½ß°ï¿½
         rootVisualElement.Query<ScrollView>("SceneAreaScroll").
             AtIndex(0).Add(newLineLabel);
     }
@@ -84,17 +84,17 @@ public class GameEventsEditorWindow : EditorWindow
     {
         Debug.Log("Delete Btn Click!!");
 
-        // ScrollView °¡Á®¿À±â
+        // ScrollView ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         ScrollView scrollView =
             rootVisualElement.Query<ScrollView>("SceneAreaScroll").AtIndex(0);
 
-        // ScrollView¿¡ ÀÖ´Â myitem Áß ¸¶Áö¸· element¸¦ ¼±ÅÃÇÕ´Ï´Ù.
+        // ScrollViewï¿½ï¿½ ï¿½Ö´ï¿½ myitem ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ elementï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.
         var element =
             scrollView.Query<VisualElement>(null, "myitem").Last();
 
         if(element != null)
         {
-            // ÇØ´ç element¸¦ parent¿¡¼­ »èÁ¦
+            // ï¿½Ø´ï¿½ elementï¿½ï¿½ parentï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             element.parent.Remove(element);
         }
     }

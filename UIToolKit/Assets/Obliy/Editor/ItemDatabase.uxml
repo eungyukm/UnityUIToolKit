@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Obliy/Editor/ItemDatabase.uss?fileID=7433441132597879392&amp;guid=cfb29ef44a4c9444b8b428913f338b9e&amp;type=3#ItemDatabase" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: row; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">
+        <ui:VisualElement name="ItemsTab" style="width: 25%; height: auto;">
+            <ui:VisualElement name="Header" style="flex-direction: row;">
+                <ui:Label text="Items" display-tooltip-when-elided="true" style="flex-grow: 1; font-size: 24px;" />
+                <ui:Button text="+" display-tooltip-when-elided="true" name="Btn_AddItem" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="margin-left: 2px; margin-right: 2px;" />
+        <ui:ScrollView name="ScrollView_Details" horizontal-page-size="20" vertical-page-size="20" style="width: 75%; color: rgb(255, 255, 255); background-color: rgb(106, 106, 106);">
+            <ui:VisualElement name="Header" class="details-header" style="flex-direction: row; align-items: center; background-color: rgb(38, 38, 38);">
+                <ui:Label text="Details" display-tooltip-when-elided="true" style="flex-grow: 1; margin-left: 10px; margin-right: 10px; margin-top: 5px; margin-bottom: 5px; -unity-font-style: bold; font-size: 24px;" />
+                <ui:Button text="Delete" display-tooltip-when-elided="true" name="Btn_DeleteItem" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Content" style="flex-grow: 1;">
+                <ui:VisualElement name="Row" style="flex-direction: row;">
+                    <ui:VisualElement name="Icon" style="width: 122px; height: 122px;" />
+                    <ui:VisualElement name="Container" style="flex-grow: 1; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; background-color: rgb(65, 65, 65);">
+                        <ui:Label text="General" display-tooltip-when-elided="true" name="Header" binding-path="FriendlyName" class="details-header" />
+                        <ui:TextField picking-mode="Ignore" label="Name" name="ItemName" class="unity-base-text-field_input" style="padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;" />
+                        <ui:DropdownField label="Type" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="ItemType" style="padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;" />
+                        <uie:ObjectField label="Icon" name="IconPicker" binding-path="Icon" type="UnityEngine.Sprite, UnityEngine.CoreModule" style="padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Row" style="flex-direction: row;">
+                    <ui:VisualElement name="Container" style="flex-grow: 1; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; background-color: rgb(38, 38, 38); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;">
+                        <ui:Label text="Description" display-tooltip-when-elided="true" name="Header" class="details-header" />
+                        <ui:TextField picking-mode="Ignore" label="Description" name="Description" multiline="true" class="unity-base-text-field_input" style="flex-grow: 1; flex-direction: column; flex-wrap: wrap; height: 100px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

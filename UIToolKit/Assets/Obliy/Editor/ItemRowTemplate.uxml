@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="ItemRow" style="justify-content: center; height: 60px;">
+        <ui:VisualElement name="Row" style="flex-direction: row; align-items: center;">
+            <ui:VisualElement name="Icon" style="width: 55px; height: 55px; background-image: url(&apos;project://database/Assets/Obliy/Editor/Sprites/UnknownIcon.png?fileID=2800000&amp;guid=9eb92037aa60700418f5dd74fe49f9c7&amp;type=3#UnknownIcon&apos;);" />
+            <ui:Label text="Unknown" display-tooltip-when-elided="true" name="Name" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

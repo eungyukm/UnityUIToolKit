@@ -1,5 +1,6 @@
 sceneSetups:
-- path: Assets/GameEvent/Demo/Scenes/Demo.unity
+- path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/Scenes/[Trailer]
+    House_SpeedBuild.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

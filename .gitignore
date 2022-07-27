@@ -70,3 +70,11 @@ ProjectSettings/Packages/com.unity.probuilder/Settings.json
 # Ignore Probuilder
 UIToolKit/Library
 UIToolKit/.vsconfig
+
+#
+UIToolKit/[Ll]ibrary/
+UIToolKit/[Tt]emp/
+UIToolKit/[Oo]bj/
+UIToolKit/[Bb]uild/
+UIToolKit/[Bb]uilds/
+UIToolKit/[Ll]ogs/

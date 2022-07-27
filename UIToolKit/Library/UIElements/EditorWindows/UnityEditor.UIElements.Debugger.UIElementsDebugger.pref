@@ -18,7 +18,7 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__unity-uie-debugger-splitter__unity-tree-view__list-view__list-view__scroll-view__VerticalScroller__Slider__UnityEngine.UIElements.Slider
   - __PanelContainer__rootVisualContainer__unity-uie-debugger-splitter__unity-tree-view__list-view__list-view__scroll-view__HorizontalScroller__Slider__UnityEngine.UIElements.Slider
   m_Values:
-  - '{"leftPaneWidth":400.0}'
-  - '{"m_ShowAlternatingRowBackgrounds":0,"m_ScrollOffset":{"x":0.0,"y":0.0}}'
-  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
-  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":940.800048828125}'
+  - '{"leftPaneWidth":595.2000122070313}'
+  - '{"m_ShowAlternatingRowBackgrounds":0,"m_ScrollOffset":{"x":0.0,"y":196.800048828125}}'
+  - '{"m_Value":196.800048828125,"m_LowValue":0.0,"m_HighValue":216.800048828125}'
+  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":758.4000244140625}'
