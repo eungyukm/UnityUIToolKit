@@ -1,23 +1,30 @@
+Unity Editor version:    2022.2.1f1 (4fead5835099)
+Branch:                  2022.2/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5.1 (Build 21G83)
+Darwin version:          21.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2021.2/staging' branch; Version is '2021.2.16f1 (559fc0ec6670) revision 5611456'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19041) 64bit Professional' Language: 'ko' Physical Memory: 65488 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.2.16f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/06_RnD_Unity/UnityUIToolKit/UIToolKit
+/Users/eungyugim/Documents/GitHub/UnityUIToolKit/UIToolKit
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56559
-Successfully changed project path to: D:/06_RnD_Unity/UnityUIToolKit/UIToolKit
-D:/06_RnD_Unity/UnityUIToolKit/UIToolKit
+49851
+Successfully changed project path to: /Users/eungyugim/Documents/GitHub/UnityUIToolKit/UIToolKit
+/Users/eungyugim/Documents/GitHub/UnityUIToolKit/UIToolKit
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,876 +54,249 @@ D:/06_RnD_Unity/UnityUIToolKit/UIToolKit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 99.90 ms, found 3 plugins.
+Player connection [4446815616] Host "[IP] 10.99.192.9 [Port] 0 [Flags] 2 [Guid] 651814137 [EditorId] 651814137 [Version] 1048832 [Id] OSXEditor(0,eungyugim-ui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4446815616] Host "[IP] 10.99.192.9 [Port] 0 [Flags] 2 [Guid] 651814137 [EditorId] 651814137 [Version] 1048832 [Id] OSXEditor(0,eungyugim-ui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 2.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.2.16f1 (559fc0ec6670)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/06_RnD_Unity/UnityUIToolKit/UIToolKit/Assets
+Initialize engine version: 2022.2.1f1 (4fead5835099)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/eungyugim/Documents/GitHub/UnityUIToolKit/UIToolKit/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
-    Vendor:   NVIDIA
-    VRAM:     8011 MB
-    Driver:   27.21.14.5671
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56930
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016343 seconds.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 100.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Register platform support module: /Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001670 seconds.
+- Loaded All Assemblies, in  0.225 seconds
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Completed reload, in  0.662 seconds
+- Finished resetting the current domain, in  0.148 seconds
 Domain Reload Profiling:
-	ReloadAssembly (663ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (133ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (453ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (0ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103ms)
+			SetupTypeCache (91ms)
+				TypeCache.Initialize (90ms)
+					TypeCache.ScanAssembly (89ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (277ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (111ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (53ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.006668 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\06_RnD_Unity\UnityUIToolKit\UIToolKit\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\06_RnD_Unity\UnityUIToolKit\UIToolKit\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 107.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.790 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1791ms)
-		BeginReloadAssembly (245ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (133ms)
-		EndReloadAssembly (1424ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (987ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (687ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/eungyugim/Documents/GitHub/UnityUIToolKit/UIToolKit/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/eungyugim/Documents/GitHub/UnityUIToolKit/UIToolKit/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.468 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.430 seconds
+Domain Reload Profiling:
+	ReloadAssembly (134ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		LoadAllAssembliesAndSetupDomain (334ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+				TypeCache.Initialize (196ms)
+					TypeCache.ScanAssembly (194ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5361.
-Memory consumption went from 198.4 MB to 197.7 MB.
-Total: 4.215500 ms (FindLiveObjects: 0.512400 ms CreateObjectMapping: 0.152300 ms MarkObjects: 3.182700 ms  DeleteObjects: 0.366400 ms)
+Unloading 5219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (382.1 KB). Loaded Objects now: 5692.
+Memory consumption went from 0.95 GB to 0.95 GB.
+Total: 3.130000 ms (FindLiveObjects: 0.225833 ms CreateObjectMapping: 0.061875 ms MarkObjects: 2.671583 ms  DeleteObjects: 0.169541 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 9370.772981 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/MCastle_Blockout_Demo.unity
-  artifactKey: Guid(96d99eb051291b246877c5fff9b1c2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/MCastle_Blockout_Demo.unity using Guid(96d99eb051291b246877c5fff9b1c2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceef76f4dc1fbac6e36518f7507df888') in 0.012363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.805259 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/83.FBX
-  artifactKey: Guid(b23d78b8411d8e74aa639f7b67412a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/83.FBX using Guid(b23d78b8411d8e74aa639f7b67412a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ef2ad71f641c51062427272fa76064') in 0.516721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/85.FBX
-  artifactKey: Guid(ed79a30e1c44edb4294e66b7f12b217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/85.FBX using Guid(ed79a30e1c44edb4294e66b7f12b217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9b5067298181c1b8cdd0e8dc1d98d7') in 0.032150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.118447 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/87.FBX
-  artifactKey: Guid(968431ccf4a2512419e829ffefb44457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/87.FBX using Guid(968431ccf4a2512419e829ffefb44457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ca8869a9141c3a6865cf42f4260ac3') in 0.072945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/98.FBX
-  artifactKey: Guid(55352bbdf9ec42f42829181b0324709d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/98.FBX using Guid(55352bbdf9ec42f42829181b0324709d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053beb25833a09360b304b491e1cb107') in 0.024369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/90.FBX
-  artifactKey: Guid(b21e1375d72755d4d902a597276c9cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/90.FBX using Guid(b21e1375d72755d4d902a597276c9cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6029dada0b697d17c0c3b8acfda9fe2c') in 0.026885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/92.FBX
-  artifactKey: Guid(e8e7628ef9b69264e8722bfa8e75a77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/92.FBX using Guid(e8e7628ef9b69264e8722bfa8e75a77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c94d4a246fc93a19e74696367992d1') in 0.027786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/97.FBX
-  artifactKey: Guid(f2d92c9abcf7d914dbccd071f3974b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/97.FBX using Guid(f2d92c9abcf7d914dbccd071f3974b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d38e72cfee48f16bf0e8dbe3e30281') in 0.024965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/100.FBX
-  artifactKey: Guid(98540c4c6c172624393bb76f24656cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/100.FBX using Guid(98540c4c6c172624393bb76f24656cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb52e9cf1c1f2fe14ba636c0073d7cb3') in 0.032259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/94.FBX
-  artifactKey: Guid(e04c3304e8a74c244b5ec66a9bf721bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/94.FBX using Guid(e04c3304e8a74c244b5ec66a9bf721bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8341c21c77c6ef75bb36a06a967ce426') in 0.027038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/104.FBX
-  artifactKey: Guid(741111e0d6d13a3429b73c69d87ddbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/104.FBX using Guid(741111e0d6d13a3429b73c69d87ddbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba9cbd63a1c47029f18e3b13417d470') in 0.034997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/102.FBX
-  artifactKey: Guid(b0680e7ad6ff75b49a4df383e33d2a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/102.FBX using Guid(b0680e7ad6ff75b49a4df383e33d2a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6612d75bc28314df8bab895c917260b6') in 0.027750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.380261 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/105.FBX
-  artifactKey: Guid(2b18119fe0da48644bce18311c13b8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/105.FBX using Guid(2b18119fe0da48644bce18311c13b8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ceba44392b2091d07b90ca5bd7ee9d2') in 0.027849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/110.FBX
-  artifactKey: Guid(3535b500f7a88bc4b89cd2950395121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/110.FBX using Guid(3535b500f7a88bc4b89cd2950395121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e31c4cd86045585e16af9967c94c073') in 0.048346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/122.FBX
-  artifactKey: Guid(f81216a7f838931438804367c0634d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/122.FBX using Guid(f81216a7f838931438804367c0634d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c1d5bfbc56628dfab4fd2f35c24109') in 0.061178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/108.FBX
-  artifactKey: Guid(089970717c916ed40b63c5c5322e03d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/108.FBX using Guid(089970717c916ed40b63c5c5322e03d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fda690e9a776fe9f77b3b56c1c4cc3') in 0.031354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/117.FBX
-  artifactKey: Guid(2dd906ac18fbfba4c8e105346e3a7e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/117.FBX using Guid(2dd906ac18fbfba4c8e105346e3a7e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4018b36a42a5ecbe695f8eb42852a77') in 0.033750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/128.FBX
-  artifactKey: Guid(c4693696b82d5374d95822139b825115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/128.FBX using Guid(c4693696b82d5374d95822139b825115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de84e059d0a11732f90a7d7f3d2f8143') in 0.029581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/146.FBX
-  artifactKey: Guid(d0faa3ad9fa7a1d48bd1ad9165a6a7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/146.FBX using Guid(d0faa3ad9fa7a1d48bd1ad9165a6a7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0bda0a1f25b08417ffde7412bac88d') in 0.025602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/157.FBX
-  artifactKey: Guid(6203460b743adc14ca4c8401bc72305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/157.FBX using Guid(6203460b743adc14ca4c8401bc72305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290aeabdfc360499eb4571db747ecc02') in 0.029296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/156.FBX
-  artifactKey: Guid(8e44f611cb9761340855e88b5eaf1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/156.FBX using Guid(8e44f611cb9761340855e88b5eaf1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84abf9f6985d2e6d1ed3e4f0316bca95') in 0.026267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/150.FBX
-  artifactKey: Guid(3b607fe4e736e9246ab8a7161b24fea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/150.FBX using Guid(3b607fe4e736e9246ab8a7161b24fea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c37b98acd0daf27aa4caff782bb1a74') in 0.030857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/125.FBX
-  artifactKey: Guid(93bb5a5a9ec914f4baf2c3b156045fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/125.FBX using Guid(93bb5a5a9ec914f4baf2c3b156045fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebde479f4eb245af407ea279b5d2e55') in 0.026317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/141.FBX
-  artifactKey: Guid(b97d4bd34155f714898fe145e63f2f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/141.FBX using Guid(b97d4bd34155f714898fe145e63f2f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c1e30090ee5adcda86676c5d68dc93') in 0.032080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/149.FBX
-  artifactKey: Guid(5ebd54ef7b6c6a84a8152f513a9ef3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/149.FBX using Guid(5ebd54ef7b6c6a84a8152f513a9ef3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c127cc270864970f00c2529eca39146') in 0.030515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/119.FBX
-  artifactKey: Guid(f3919d4bae6dcc845b6250ad1480fe0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/119.FBX using Guid(f3919d4bae6dcc845b6250ad1480fe0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be66c472db20d74b799bb6fe0d5f2bb2') in 0.032448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/172.FBX
-  artifactKey: Guid(77ec4890de8eb8446adb54fa483ef310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/172.FBX using Guid(77ec4890de8eb8446adb54fa483ef310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc40b8f43d8a325a9264a1b22e325499') in 0.026801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/166.FBX
-  artifactKey: Guid(982647957b96cb94d965175ebf0e5a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/166.FBX using Guid(982647957b96cb94d965175ebf0e5a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d937ff9e8b676e87f0dd4fd44dd9bb') in 0.047925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/185.FBX
-  artifactKey: Guid(a083e409d84c7cd4fa6d578b4e65fd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/185.FBX using Guid(a083e409d84c7cd4fa6d578b4e65fd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d32e9dbe99aa0d1ca5b64d6d7e736b') in 0.052445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/159.FBX
-  artifactKey: Guid(1dc81cd13c68d2546a8afa0e279b3e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/159.FBX using Guid(1dc81cd13c68d2546a8afa0e279b3e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18187e832f9a3c3f01eb7744f3b82384') in 0.025800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/181.FBX
-  artifactKey: Guid(8074286a455358e4ab062821847e3031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/181.FBX using Guid(8074286a455358e4ab062821847e3031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0a293cce6ac4acce5faf1af9b30b26') in 0.038130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/184.FBX
-  artifactKey: Guid(c1f90749262e99842a69e4376383aa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/184.FBX using Guid(c1f90749262e99842a69e4376383aa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a164f0256d790dbfba75aed5555903f7') in 0.030452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/112.FBX
-  artifactKey: Guid(7ba322f2e22da5744adb628555e06038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/112.FBX using Guid(7ba322f2e22da5744adb628555e06038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a6ff95a57e068231377d53a1f581dc') in 0.037296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/121.FBX
-  artifactKey: Guid(fe6a1f1a86b8ec64a82684e9bf3a9796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/121.FBX using Guid(fe6a1f1a86b8ec64a82684e9bf3a9796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1266842fde4cba0bfd0319ddde840dc9') in 0.036995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/163.FBX
-  artifactKey: Guid(2de80a01269e0394fbd79a322c982c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/163.FBX using Guid(2de80a01269e0394fbd79a322c982c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31b7a0525238ffbaf94baa526f8b158') in 0.030121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/139.FBX
-  artifactKey: Guid(8605b7b4c44718b43bd2488f9fa08e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/139.FBX using Guid(8605b7b4c44718b43bd2488f9fa08e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02a2bb763c0e0371bb01510746004ec') in 0.028037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/179.FBX
-  artifactKey: Guid(a9efd6f3a632fcb4eb63d68e26a7afba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/179.FBX using Guid(a9efd6f3a632fcb4eb63d68e26a7afba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726c3f4c38d8a8645e4898c9c3a83ec2') in 0.031057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/147.FBX
-  artifactKey: Guid(6749847c06b6d7e44ba8969a9f8d816f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/147.FBX using Guid(6749847c06b6d7e44ba8969a9f8d816f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee98152414cd97c5dae1b7d4b882f952') in 0.029827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/167.FBX
-  artifactKey: Guid(60890a2322f25c4448101a74e6e32d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/167.FBX using Guid(60890a2322f25c4448101a74e6e32d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defa4a100aa477543f4bc778696529f4') in 0.023767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/165.FBX
-  artifactKey: Guid(60e7fd3d29361a440be0c7e4ca770439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/165.FBX using Guid(60e7fd3d29361a440be0c7e4ca770439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77df81afa26a74eafe6855590a755208') in 0.037904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/189.FBX
-  artifactKey: Guid(0ea5c71308291ee468062e6816c0f898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/189.FBX using Guid(0ea5c71308291ee468062e6816c0f898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5813c934c99aac63901f639b471f653f') in 0.026088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/154.FBX
-  artifactKey: Guid(809c4482724166f40b9f909eb47ceac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/154.FBX using Guid(809c4482724166f40b9f909eb47ceac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6c579b18dec674ecc42c3f3c7a18e6') in 0.034131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/217.FBX
-  artifactKey: Guid(139306c88b4f3894fae5945d56bffa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/217.FBX using Guid(139306c88b4f3894fae5945d56bffa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c89686d0db8a00e36d795064132b934') in 0.026589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/220.FBX
-  artifactKey: Guid(4716ecc5c244724418747b57e57ae76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/220.FBX using Guid(4716ecc5c244724418747b57e57ae76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeccf9956a885644a8af80ad5f9338ca') in 0.051346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/240.FBX
-  artifactKey: Guid(92bf069e07695414b9116a6948a7a7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/240.FBX using Guid(92bf069e07695414b9116a6948a7a7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39463c3d6d9f26024f1d50b3a6a50718') in 0.048357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/210.FBX
-  artifactKey: Guid(d684f11940abed94b99f643f718c2da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/210.FBX using Guid(d684f11940abed94b99f643f718c2da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b578bd37d49ecb9a2ca80f9ec82d0a34') in 0.034962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/211.FBX
-  artifactKey: Guid(55666d4daac3cad47a2775630a01076e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/211.FBX using Guid(55666d4daac3cad47a2775630a01076e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b4ea6ab32651529b6aee27789a71fc') in 0.028431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/225.FBX
-  artifactKey: Guid(0d6e20fc34511ad4bbb30a0ba6bcd801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/225.FBX using Guid(0d6e20fc34511ad4bbb30a0ba6bcd801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3626e992439f75fda174fc6d0ce3372') in 0.037958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/214.FBX
-  artifactKey: Guid(f39c9ea71dd1bd54f98306e6abdd6b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/214.FBX using Guid(f39c9ea71dd1bd54f98306e6abdd6b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42163480fdf0223f6d8504d51fa1079e') in 0.041995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/248.FBX
-  artifactKey: Guid(d0ae0cba513a93e42a45ed6c9f2c39d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/248.FBX using Guid(d0ae0cba513a93e42a45ed6c9f2c39d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cad10451e875e7014f99b83e9b3c55') in 0.038691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/140.FBX
-  artifactKey: Guid(fbc5029e8b3043f478380a6f31820ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/140.FBX using Guid(fbc5029e8b3043f478380a6f31820ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60571063b0801f3b9bd98e28a7ddaf3e') in 0.029957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/216.FBX
-  artifactKey: Guid(c351b6f752722244f95ae67a37b0e8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/216.FBX using Guid(c351b6f752722244f95ae67a37b0e8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b03d8e2868af75c58a5265e27acb94') in 0.034546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/202.FBX
-  artifactKey: Guid(95223d8a95ea4f94a81888788e5c9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/202.FBX using Guid(95223d8a95ea4f94a81888788e5c9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295aa2c264745f2d24a6b73ca66fe63a') in 0.030688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/194.FBX
-  artifactKey: Guid(7c6a856b35e01454384de97533f53db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/194.FBX using Guid(7c6a856b35e01454384de97533f53db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60ace683756cc661f91086da684e290') in 0.029999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/260.FBX
-  artifactKey: Guid(c5c8daab909dc8c459960a6d1a4ad6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/260.FBX using Guid(c5c8daab909dc8c459960a6d1a4ad6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2895ae1fbf329051fd66f8465e165424') in 0.025965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/283.FBX
-  artifactKey: Guid(4f689d8bc5741da41908fce1147d00b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/283.FBX using Guid(4f689d8bc5741da41908fce1147d00b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49551d38147818432f2071af48e7357') in 0.030317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/273.FBX
-  artifactKey: Guid(5820b976f9c4e1942bd78fa2ad275c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/273.FBX using Guid(5820b976f9c4e1942bd78fa2ad275c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c225949a849d5083270fc78758f6fca4') in 0.024432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/276.FBX
-  artifactKey: Guid(0e924b54ca435a14f8c582db7b7ff7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/276.FBX using Guid(0e924b54ca435a14f8c582db7b7ff7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d7ed82f98b339e3987a5ecacf8f6a0') in 0.024289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/268.FBX
-  artifactKey: Guid(3031d93e35d12a742adfdada0bce41f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/268.FBX using Guid(3031d93e35d12a742adfdada0bce41f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033928c6d50e36730566ae923c7f9db2') in 0.030867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/258.FBX
-  artifactKey: Guid(5ecd8741d399d194b9dc0087719ee401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/258.FBX using Guid(5ecd8741d399d194b9dc0087719ee401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d419330ccfc08e2c5eb7252f19aebb') in 0.024893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/280.FBX
-  artifactKey: Guid(a8d764ddcdbcbb04fa7cd4b47198973e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/280.FBX using Guid(a8d764ddcdbcbb04fa7cd4b47198973e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c470f1097a7863701698b608b3f3ca') in 0.033101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/264.FBX
-  artifactKey: Guid(5d833b9d2b8d7c845a7591c87ce3f96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/264.FBX using Guid(5d833b9d2b8d7c845a7591c87ce3f96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc66e0cc9ab2b87114d933f0124f87f') in 0.027254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/274.FBX
-  artifactKey: Guid(35b79c29c5fa1d64e9df64308159f871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/274.FBX using Guid(35b79c29c5fa1d64e9df64308159f871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c041b237d6fbc2f1e04c2cc7e76581fe') in 0.031778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/206.FBX
-  artifactKey: Guid(bd827abb291462c4e89a275d684a36cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/206.FBX using Guid(bd827abb291462c4e89a275d684a36cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831d03a756388ef26b05f9a88abbf9e9') in 0.027316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/253.FBX
-  artifactKey: Guid(fb544a1711c0d4443b9b8c3af2808025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/253.FBX using Guid(fb544a1711c0d4443b9b8c3af2808025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c50f849fa3d388c43e12332b485ab2') in 0.031230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/245.FBX
-  artifactKey: Guid(16cacebc8203e2e47beda86b18296096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/245.FBX using Guid(16cacebc8203e2e47beda86b18296096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d71ee194527618948a35e3e8c9ed1e1') in 0.030662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/134.FBX
-  artifactKey: Guid(d1c90ee85d582f240ad4e4c4cdbfeaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/134.FBX using Guid(d1c90ee85d582f240ad4e4c4cdbfeaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e738892725520cd0bd517cb53785bf99') in 0.031657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001622 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/142.FBX
-  artifactKey: Guid(f368d7f3f788a3d4db36d8d268a39cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/142.FBX using Guid(f368d7f3f788a3d4db36d8d268a39cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a525017029a4dbcd18e410b232004d60') in 0.025988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/130.FBX
-  artifactKey: Guid(3fe823a5956f4d34891da39ffa7e924a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/130.FBX using Guid(3fe823a5956f4d34891da39ffa7e924a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84493e84d9072541cf3f6216a89b301b') in 0.025978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/111.FBX
-  artifactKey: Guid(2b693b78ba866964eb2facfb5a5047c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/111.FBX using Guid(2b693b78ba866964eb2facfb5a5047c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e81acd1f77439f93a037fb53ba8c9a2') in 0.030441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/261.FBX
-  artifactKey: Guid(d9fb8f55e6e033941a76b74adcdd9b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/261.FBX using Guid(d9fb8f55e6e033941a76b74adcdd9b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a290d0bf5f1bdc55691ee972c739a445') in 0.027470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/221.FBX
-  artifactKey: Guid(1db82b4092bcc9c41b7db4e76d024f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/221.FBX using Guid(1db82b4092bcc9c41b7db4e76d024f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800d9309c0058fa5cd9671be8d08b6dc') in 0.033466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/233.FBX
-  artifactKey: Guid(75955218a1e0f854c8d409492241af4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/233.FBX using Guid(75955218a1e0f854c8d409492241af4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68a6c2570da65b51bfe345cb4eaa12a') in 0.026168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/234.FBX
-  artifactKey: Guid(d81aca7d85cc4bf48b9889158b97ab88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/234.FBX using Guid(d81aca7d85cc4bf48b9889158b97ab88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612e72846aefd871a35d27cc813a4293') in 0.031433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/315.FBX
-  artifactKey: Guid(51c40dac9d18af34ebd094d2d0b1ab89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/315.FBX using Guid(51c40dac9d18af34ebd094d2d0b1ab89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86c7a73ae2eab379de0e7a12f0db480') in 0.027407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/299.FBX
-  artifactKey: Guid(22ca3c6d3a3ca8f4699e2863526e6dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/299.FBX using Guid(22ca3c6d3a3ca8f4699e2863526e6dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62fdc660bff4fe094188df44aa4cd54') in 0.057208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/290.FBX
-  artifactKey: Guid(7c597f2423161b14c901c123adbb3905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/290.FBX using Guid(7c597f2423161b14c901c123adbb3905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047233c60dc6b82b5b9d3460c91aff69') in 0.027122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/307.FBX
-  artifactKey: Guid(1b13c260cad12924e8869ffee48a244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/307.FBX using Guid(1b13c260cad12924e8869ffee48a244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e61a8029c8faa2f9324e2a9a3d709d9') in 0.030198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/316.FBX
-  artifactKey: Guid(77ac99dba32ee9543a660ee329706915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/316.FBX using Guid(77ac99dba32ee9543a660ee329706915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4b8a0df9696fe45aad38f817b5c725') in 0.025283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/303.FBX
-  artifactKey: Guid(563db7e1c5708fa4f91ca64eb9baceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/303.FBX using Guid(563db7e1c5708fa4f91ca64eb9baceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00f09b8d2898fd4e8e36bdb18dc8440') in 0.030473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/288.FBX
-  artifactKey: Guid(dcd957ffccd174949b98ccf6cea02aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/288.FBX using Guid(dcd957ffccd174949b98ccf6cea02aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679653175e678c3205e26cc37c193332') in 0.024650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/289.FBX
-  artifactKey: Guid(3e3ce42d2c9c24f45b7b00f5322879ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/289.FBX using Guid(3e3ce42d2c9c24f45b7b00f5322879ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a819296b83cd68a4795f2d0f90b1a9c8') in 0.028916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/286.FBX
-  artifactKey: Guid(87b6ea49b1c8e5948aceb6f37aecf430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/286.FBX using Guid(87b6ea49b1c8e5948aceb6f37aecf430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb28b7b78efd22f4f7acb69600076a11') in 0.025139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/298.FBX
-  artifactKey: Guid(ff262f0be8eb52a4e9f6435189d0d4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/298.FBX using Guid(ff262f0be8eb52a4e9f6435189d0d4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5b9a903c61a313c9a0e5d61c7a2bc1') in 0.032483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/313.FBX
-  artifactKey: Guid(be541c4d6969577458370fc3880c6231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/313.FBX using Guid(be541c4d6969577458370fc3880c6231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c582786650f4a0bb711dd17248812b') in 0.027724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/305.FBX
-  artifactKey: Guid(9b2b9260acdcb6443b8807bc674d7c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/305.FBX using Guid(9b2b9260acdcb6443b8807bc674d7c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ae856b245f691e56d214c96bb916b2') in 0.033378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/246.FBX
-  artifactKey: Guid(2388740e03ef5ae45baa2cf3490b2eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/246.FBX using Guid(2388740e03ef5ae45baa2cf3490b2eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0d6e58a8d281b0e8848132eaf251b7') in 0.033163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/213.FBX
-  artifactKey: Guid(09e2ddd43e67f2b4fba8e578767c8794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/213.FBX using Guid(09e2ddd43e67f2b4fba8e578767c8794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd924491f6b244cc8df40a6107fd8ef') in 0.033105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/247.FBX
-  artifactKey: Guid(65072e828a52a104497ed7a4da83aa70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/247.FBX using Guid(65072e828a52a104497ed7a4da83aa70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcf18645f9a0c515b9c2da40f1388d6') in 0.031463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/284.FBX
-  artifactKey: Guid(fb323369eba3e8844b30efaba1702dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/284.FBX using Guid(fb323369eba3e8844b30efaba1702dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac56f8194e2cff294edb3842a7174ea') in 0.028576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001043 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/266.FBX
-  artifactKey: Guid(f7676da29d4073448be3e256f15fc656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/266.FBX using Guid(f7676da29d4073448be3e256f15fc656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a46d36b644320e84dc77ed8ff0bf96') in 0.026366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/239.FBX
-  artifactKey: Guid(98d330c339e4ea245a6352a26bae998d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/239.FBX using Guid(98d330c339e4ea245a6352a26bae998d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cf5af1275a537ce7e60f0fe50325c1') in 0.047133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/226.FBX
-  artifactKey: Guid(b07edc778da50544293164fdca3edc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/226.FBX using Guid(b07edc778da50544293164fdca3edc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9abfd029a6d5dcae4b476b83f64d547') in 0.026967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/318.FBX
-  artifactKey: Guid(9c51080084ef9fd4f9f8c52d6c77a56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/318.FBX using Guid(9c51080084ef9fd4f9f8c52d6c77a56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5970e3ad26d5b67a6aa5d7a4676ccdab') in 0.031334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/252.FBX
-  artifactKey: Guid(d52e1d78f82a297418fb0583e7abc8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/252.FBX using Guid(d52e1d78f82a297418fb0583e7abc8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de41c5ec3283fdaf7e4ad1a3cc7e0349') in 0.026500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/293.FBX
-  artifactKey: Guid(32b05f0f900e2b647b17361a8b67bc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/293.FBX using Guid(32b05f0f900e2b647b17361a8b67bc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bcf3e4a3fae6c2268b9b92fb540121') in 0.027869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/208.FBX
-  artifactKey: Guid(476162c90a687d842898c530a8ad1cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/208.FBX using Guid(476162c90a687d842898c530a8ad1cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca9f91ec8f76e407e80dd8525aa9111') in 0.024456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/257.FBX
-  artifactKey: Guid(7769146cf6fc1e1448b1f6741059b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/257.FBX using Guid(7769146cf6fc1e1448b1f6741059b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557f0ca0a38800f0b08e1608ac007226') in 0.029500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/323.FBX
-  artifactKey: Guid(35c87fe488a2af841a45e48e6f1b089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/323.FBX using Guid(35c87fe488a2af841a45e48e6f1b089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0804caeb31d04f437287aa03b9fe2de') in 0.026627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/335.FBX
-  artifactKey: Guid(930b2f6e4e607154abad2dba106a2e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/335.FBX using Guid(930b2f6e4e607154abad2dba106a2e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0293afba743a8c903e08e0a46b67177') in 0.026331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009800 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/334.FBX
-  artifactKey: Guid(8b8ac3c0b7a4dde4eadb3ef7c0b71d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/334.FBX using Guid(8b8ac3c0b7a4dde4eadb3ef7c0b71d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0292f1d322d04ff716455669b8e1722') in 0.049539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/331.FBX
-  artifactKey: Guid(3600dc3f5cce49441a00b56a09a009ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/331.FBX using Guid(3600dc3f5cce49441a00b56a09a009ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20d3b3547adecc1da2248d5f01142e8') in 0.045581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/332.FBX
-  artifactKey: Guid(45c60088c508da24a93a117976c6bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/332.FBX using Guid(45c60088c508da24a93a117976c6bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5908b77126f58371cc9ff2619345a0f3') in 0.026856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/330.FBX
-  artifactKey: Guid(3d39e7e79d36f7c439ecc73fde4f0cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/330.FBX using Guid(3d39e7e79d36f7c439ecc73fde4f0cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8957a722ca9ea7f39e9502cad4af3e') in 0.036799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/326.FBX
-  artifactKey: Guid(813933e06a2c47c4b97b12a01827c7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/326.FBX using Guid(813933e06a2c47c4b97b12a01827c7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cb08f96b2fa43311cac94eb724a4d1') in 0.040625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/337.FBX
-  artifactKey: Guid(9c7e4bb63c7b4ef488a8e65233a7a6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/337.FBX using Guid(9c7e4bb63c7b4ef488a8e65233a7a6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bda2bb4f4d580c17586430e332d4d5') in 0.036643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/269.FBX
-  artifactKey: Guid(8cfbdf2e3c033d24a8f7e18edceb28e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/269.FBX using Guid(8cfbdf2e3c033d24a8f7e18edceb28e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764dcd9d606f1a79b3493b57c5e09dcb') in 0.027654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/265.FBX
-  artifactKey: Guid(19fdbbc43d618f84eb294c2a20206290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/265.FBX using Guid(19fdbbc43d618f84eb294c2a20206290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb61b0a39f0efdb48e01377fcf5a6a0') in 0.035587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/231.FBX
-  artifactKey: Guid(da3828586984dc848aabb01a6b9bc69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/231.FBX using Guid(da3828586984dc848aabb01a6b9bc69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f605f392533b1c67aed9119506a1d4') in 0.037595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/182.FBX
-  artifactKey: Guid(077a7bcd839824e44a565f46d012d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/182.FBX using Guid(077a7bcd839824e44a565f46d012d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791be222ee48c710c5d85a2a3bc9c34a') in 0.034499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/176.FBX
-  artifactKey: Guid(7f0b0ed8aacf60943915d81420e91eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/176.FBX using Guid(7f0b0ed8aacf60943915d81420e91eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ebb9cd51e0c2c7af7e1ae45da67e74') in 0.037735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/287.FBX
-  artifactKey: Guid(4c8b6836d4d6b614d91bc4e9614f8d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/287.FBX using Guid(4c8b6836d4d6b614d91bc4e9614f8d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2606bf71749703f0f2b612fe9fde031') in 0.087807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/296.FBX
-  artifactKey: Guid(6a1a2024216a82f44b63a40634c897ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/296.FBX using Guid(6a1a2024216a82f44b63a40634c897ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa4398dc7fea5be580bee3b6b9c6b63') in 0.036363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/192.FBX
-  artifactKey: Guid(4cff39659c6e9144684d6214a559c8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/192.FBX using Guid(4cff39659c6e9144684d6214a559c8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78e116ca3b2a9e30443257911767194') in 0.038288 seconds 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12099.411489 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a58018b668b55ca72eaf469a5c6140') in 0.049780 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628155257e57621111ba0102ea6af2d1') in 0.002657 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/UnityDefaultRuntimeTheme.tss
+  artifactKey: Guid(d9d509eeb90cd441383c13d19e26c0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityDefaultRuntimeTheme.tss using Guid(d9d509eeb90cd441383c13d19e26c0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9493ad5665608cd3b345cce12dadc64a') in 0.319650 seconds 
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 314.115759 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 6
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8be5f0ac67569ec645db2939e1e3e8') in 0.014841 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.372486 seconds.
+  path: Assets/Editor/GameEventMenu.uss
+  artifactKey: Guid(8a2c480b604f81b4193d81f939c616d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Editor/GameEventMenu.uss using Guid(8a2c480b604f81b4193d81f939c616d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cc5f0c1a63d29dad8f28bf60f0944f') in 0.031977 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.262802 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae09c7817be37524cc3bb8f976c0a28f') in 0.002582 seconds 
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
   Time since last request: 0.000055 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/203.FBX
-  artifactKey: Guid(9f5dbf9eb6088eb4187a7383c7823290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/203.FBX using Guid(9f5dbf9eb6088eb4187a7383c7823290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5ad24af6c7c6a75f40f7ef4207f9a3') in 0.039046 seconds 
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23a85076094cde1320f015159f1c0b2') in 0.002041 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/199.FBX
-  artifactKey: Guid(c6269a93eebcefe4a9e781f30b544ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/199.FBX using Guid(c6269a93eebcefe4a9e781f30b544ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febc5658ea422f15be0792df92cf8821') in 0.039082 seconds 
+  Time since last request: 0.000046 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c87f0bb5298d0dad314eab86c08e45') in 0.003134 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000043 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/190.FBX
-  artifactKey: Guid(f06bdef9e2d301b4282f3506082c7444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/190.FBX using Guid(f06bdef9e2d301b4282f3506082c7444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b4a3b383eacd7abcc68832a7a17192') in 0.027352 seconds 
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b400af666d44e77fe6a32736da561b41') in 0.001956 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/232.FBX
-  artifactKey: Guid(dd84d25d05d15bb4dbe106e77b08361e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/232.FBX using Guid(dd84d25d05d15bb4dbe106e77b08361e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ae76e9e1210f6a9a7931162315bc28') in 0.037558 seconds 
+  Time since last request: 0.000051 seconds.
+  path: Assets/Settings/URP-Balanced-Renderer.asset
+  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4349b490e9fc46c85411bae72ef93be2') in 0.001818 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/174.FBX
-  artifactKey: Guid(c3f4ac7bd839b0046a25db539e34bda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/174.FBX using Guid(c3f4ac7bd839b0046a25db539e34bda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cefe417be7da9ac67505ae6ade7b11') in 0.029687 seconds 
+  Time since last request: 1.177017 seconds.
+  path: Assets/Scenes/AssetEditor.unity
+  artifactKey: Guid(90d53a314890f1640a3eb87f10fb503b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/AssetEditor.unity using Guid(90d53a314890f1640a3eb87f10fb503b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8beee0abf000c9614939b43646e86d33') in 0.003657 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/251.FBX
-  artifactKey: Guid(742429dad71f9bd43b4978f4373cc842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/251.FBX using Guid(742429dad71f9bd43b4978f4373cc842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2d4a43a58c8684f07e2f60ec0500e6') in 0.024420 seconds 
+  Time since last request: 42.241698 seconds.
+  path: Assets/Obliy/Data/671983CA-21AC-4372-A187-4D6A960B518D.asset
+  artifactKey: Guid(0dc1da9ffa7d4ab499a819805f960199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Obliy/Data/671983CA-21AC-4372-A187-4D6A960B518D.asset using Guid(0dc1da9ffa7d4ab499a819805f960199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ac6fbd79cf822eaaf7eeb4876e2aef') in 0.001938 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/131.FBX
-  artifactKey: Guid(70842b3fcd2279b448ca99332131ea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/131.FBX using Guid(70842b3fcd2279b448ca99332131ea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee2e031ebc0f574a33340e64eb62ead') in 0.027231 seconds 
+  Time since last request: 1.320927 seconds.
+  path: Assets/Obliy/Editor/ItemDatabase.uxml
+  artifactKey: Guid(2735bb2441261844988af4ac8bfd4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Obliy/Editor/ItemDatabase.uxml using Guid(2735bb2441261844988af4ac8bfd4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dd1027d17c35af119d9b347f722315') in 0.035616 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/219.FBX
-  artifactKey: Guid(b43b53684b8c8dd4193b75929b118e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/219.FBX using Guid(b43b53684b8c8dd4193b75929b118e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac37b2a2d574370a6f9b40afe5d9f62') in 0.033706 seconds 
+  Time since last request: 1739.223041 seconds.
+  path: Assets/GameEvent/ScriptableObjects/UI/UI_FirePanelOpen.asset
+  artifactKey: Guid(c9304f8dd5d0bf64a9e8e9559db1f46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameEvent/ScriptableObjects/UI/UI_FirePanelOpen.asset using Guid(c9304f8dd5d0bf64a9e8e9559db1f46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe80383a678e93b893bd498aaa03307') in 0.002020 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/223.FBX
-  artifactKey: Guid(975d961f062f4054bba8d3050bc04ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/223.FBX using Guid(975d961f062f4054bba8d3050bc04ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdc647fb1a5c07f0bcc8567e98ef03e') in 0.033917 seconds 
+  Time since last request: 6.340814 seconds.
+  path: Assets/Materials/test_1.mat
+  artifactKey: Guid(4731bc82795924d4e911426c8c9660dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/test_1.mat using Guid(4731bc82795924d4e911426c8c9660dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2c4cb6e345a8778545943566b859cc') in 1.057282 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/255.FBX
-  artifactKey: Guid(6d5db5b12f912cf4ebcaa4f6193250f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/255.FBX using Guid(6d5db5b12f912cf4ebcaa4f6193250f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197dc3ae2cc0356f47e3f51e95674366') in 0.027679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/314.FBX
-  artifactKey: Guid(73174b6a106bf554596bbf27737af752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/314.FBX using Guid(73174b6a106bf554596bbf27737af752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85d9d7386bfefe6822e9866cadf1985') in 0.029434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/116.FBX
-  artifactKey: Guid(b161c3510fbef9e4784e928888911fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE_HD/[NEW FREE EXTRA] MEDIEVAL_BLOCKOUTS/_Assets/Mods/116.FBX using Guid(b161c3510fbef9e4784e928888911fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd8bf56c59823300299936544916169') in 0.030084 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.141454 seconds.
+  path: Assets/Models/Door_B0_1.FBX
+  artifactKey: Guid(769c96673c7a3764fa33e80e264492da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Door_B0_1.FBX using Guid(769c96673c7a3764fa33e80e264492da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30062d2cd940f81df57d21d15e2180df') in 0.270624 seconds 
+Number of asset objects unloaded after import = 10
