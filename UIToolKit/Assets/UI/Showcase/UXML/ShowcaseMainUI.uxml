@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Showcase/USS/ShowcaseMainStyle.uss?fileID=7433441132597879392&amp;guid=b0a874c73245f4ecbaf2af49985875e3&amp;type=3#ShowcaseMainStyle" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column-reverse; width: 100%; height: 100%;">
+        <ui:VisualElement name="showcase__footer" style="flex-grow: 0.1; background-color: rgba(0, 0, 0, 0); width: 100%; height: 3px; flex-direction: row; justify-content: center; align-self: auto;">
+            <ui:Button text="Spine" display-tooltip-when-elided="true" name="showcase__footer-spine" class="showcaseFooterButton" />
+            <ui:Button text="Stop" display-tooltip-when-elided="true" name="showcase__footer-stop" class="showcaseFooterButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

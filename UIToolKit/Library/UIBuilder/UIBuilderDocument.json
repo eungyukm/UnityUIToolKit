@@ -4,9 +4,11 @@
         "m_EditorHideFlags": 0,
         "m_Name": "BuilderDocument",
         "m_EditorClassIdentifier": "UnityEditor.UIBuilderModule:Unity.UI.Builder:BuilderDocument",
-        "m_CurrentCanvasTheme": 0,
-        "m_CurrentCanvasThemeStyleSheet": {
-            "instanceID": 0
+        "m_CurrentCanvasTheme": 4,
+        "m_CurrentCanvasThemeStyleSheetReference": {
+            "fileID": -4733365628477956816,
+            "guid": "d9d509eeb90cd441383c13d19e26c0ac",
+            "type": 3
         },
         "m_CodePreviewVisible": true,
         "m_OpenUXMLFiles": [
@@ -15,41 +17,41 @@
                     {
                         "m_StyleSheet": {
                             "fileID": 7433441132597879392,
-                            "guid": "cfb29ef44a4c9444b8b428913f338b9e",
+                            "guid": "b0a874c73245f4ecbaf2af49985875e3",
                             "type": 3
                         },
                         "m_BackupStyleSheet": {
                             "instanceID": 0
                         },
-                        "m_OldPath": "Assets/Obliy/Editor/ItemDatabase.uss"
+                        "m_OldPath": "Assets/UI/Showcase/USS/ShowcaseMainStyle.uss"
                     }
                 ],
                 "m_VisualTreeAssetBackup": {
                     "instanceID": 0
                 },
-                "m_OpenendVisualTreeAssetOldPath": "Assets/Obliy/Editor/ItemDatabase.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI/Showcase/UXML/ShowcaseMainUI.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "2735bb2441261844988af4ac8bfd4e35",
+                    "guid": "f7b705df15df640ef8b7a916db9a80f2",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
                     "fileID": 7433441132597879392,
-                    "guid": "cfb29ef44a4c9444b8b428913f338b9e",
+                    "guid": "b0a874c73245f4ecbaf2af49985875e3",
                     "type": 3
                 },
                 "m_Settings": {
-                    "UxmlGuid": "2735bb2441261844988af4ac8bfd4e35",
-                    "UxmlPath": "Assets/Obliy/Editor/ItemDatabase.uxml",
+                    "UxmlGuid": "f7b705df15df640ef8b7a916db9a80f2",
+                    "UxmlPath": "Assets/UI/Showcase/UXML/ShowcaseMainUI.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
-                    "CanvasWidth": 1043,
-                    "CanvasHeight": 338,
+                    "CanvasWidth": 1980,
+                    "CanvasHeight": 1080,
                     "MatchGameView": true,
-                    "ZoomScale": 0.5,
+                    "ZoomScale": 1.0,
                     "PanOffset": {
-                        "x": 48.4332275390625,
-                        "y": 316.6000061035156
+                        "x": 88.0,
+                        "y": 118.0
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,
@@ -60,7 +62,7 @@
                         "r": 0.0,
                         "g": 0.0,
                         "b": 0.0,
-                        "a": 255.0
+                        "a": 1.0
                     },
                     "CanvasBackgroundImage": {
                         "instanceID": 0

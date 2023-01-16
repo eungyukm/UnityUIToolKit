@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/GameEventMenu.uss?fileID=7433441132597879392&amp;guid=8a2c480b604f81b4193d81f939c616d9&amp;type=3#GameEventMenu" />
+    <ui:VisualElement style="flex-shrink: 1; flex-grow: 1;">
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:Label text="GameEventMenu" display-tooltip-when-elided="true" enable-rich-text="true" style="align-items: auto; height: 50px; -unity-text-align: middle-center; font-size: 30px; border-bottom-width: 3px; border-bottom-color: rgb(65, 65, 65); flex-grow: 1;" />
+            <ui:Button text="Add" display-tooltip-when-elided="true" name="BtnAdd" style="flex-shrink: 0; flex-grow: 1;" />
+            <ui:Button text="Delete" display-tooltip-when-elided="true" name="BtnDelete" style="flex-shrink: 0; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="filler text" style="height: 35px;" />
+        <ui:VisualElement class="LftTopAnchor" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="Scenes_Area" class="LftTopAnchor" style="width: 100%; height: 100%; max-width: 50%; max-height: 100%; min-height: 0; min-width: 0; justify-content: flex-start; align-items: stretch; visibility: visible; left: auto; top: auto; right: auto; bottom: auto;">
+                <ui:Button text="Path in Scenes" display-tooltip-when-elided="true" name="BtnScenePath" class="button" style="height: auto;" />
+                <ui:ScrollView name="SceneAreaScroll" style="flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Assets_Area" style="width: 100%; height: 100%; max-width: 50%; min-width: 0; min-height: 0; max-height: 100%; left: auto; top: auto; right: auto; bottom: auto;">
+                <ui:Button text="Path in Assets" display-tooltip-when-elided="true" name="BtnAssetPath" class="button" style="height: auto;" />
+                <ui:ScrollView name="AssetsAreaScroll" style="flex-grow: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
