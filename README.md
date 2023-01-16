@@ -2,6 +2,7 @@
 UI ToolKit 프로젝트 입니다.
 
 # Unity Version
+Unity 2022.2.1f1
 
 # 목차
 [01. UI Toolkit 소개](https://github.com/eungyukm/UnityUIToolKit/wiki/01.-UI-Toolkit-%EC%86%8C%EA%B0%9C)          
