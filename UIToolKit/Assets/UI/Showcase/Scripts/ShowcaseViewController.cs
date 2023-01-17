@@ -1,30 +1,32 @@
+using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UIElements;
 
 public class ShowcaseViewController : MonoBehaviour
 {
-    private UIDocument showcaseMain;
+    private UIDocument _showcaseMain;
 
-    [SerializeField] private ShowcaseRotator _showcaseRotator;
+    [SerializeField] private ShowcaseRotator showcaseRotator;
 
-    private Button btnSpine;
-    private Button btnStop;
+    private Button _btnSpine;
+    private Button _btnStop;
 
     private void OnEnable()
     {
-        showcaseMain = GetComponent<UIDocument>();
-        VisualElement showcaseMainRoot = showcaseMain.rootVisualElement;
-        btnSpine = showcaseMainRoot.Q<Button>("showcase__footer-spine");
-        btnStop = showcaseMainRoot.Q<Button>("showcase__footer-stop");
+        _showcaseMain = GetComponent<UIDocument>();
+        var showcaseMainRoot = _showcaseMain.rootVisualElement;
+        _btnSpine = showcaseMainRoot.Q<Button>("showcase__footer-spine");
+        _btnStop = showcaseMainRoot.Q<Button>("showcase__footer-stop");
 
-        btnSpine.clicked += () =>
+        _btnSpine.clicked += () =>
         {
-            _showcaseRotator.ShowCaseSpine();
+            showcaseRotator.ShowCaseSpine();
         };
         
-        btnStop.clicked += () =>
+        _btnStop.clicked += () =>
         {
-            _showcaseRotator.ShowCaseStop();
+            showcaseRotator.ShowCaseStop();
         };
     }
 }
