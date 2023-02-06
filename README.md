@@ -16,5 +16,5 @@ Unity 2022.2.1f1
 [09. UI Toolkit USS](https://github.com/eungyukm/UnityUIToolKit/wiki/09.-UI-Toolkit-USS)      
 [10. Item management editor (1)](https://github.com/eungyukm/UnityUIToolKit/wiki/10.-Item-management-editor-(1))        
 [11. Item management editor (2)](https://github.com/eungyukm/UnityUIToolKit/wiki/11.-Item-management-editor-(2))        
-[12. UIToolkit Code Convention](https://github.com/eungyukm/UnityUIToolKit/wiki/12.-UIToolkit-Code-Convention)
-[13. Showcase UI](https://github.com/eungyukm/UnityUIToolKit/wiki/13.-Showcase-UI)
+[12. UIToolkit Code Convention](https://github.com/eungyukm/UnityUIToolKit/wiki/12.-UIToolkit-Code-Convention)          
+[13. Showcase UI](https://github.com/eungyukm/UnityUIToolKit/wiki/13.-Showcase-UI)             
